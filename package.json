@@ -1,0 +1,27 @@
+{
+  "name": "lrucache-nodejs",
+  "version": "1.0.1",
+  "description": "LRU (Recently Used Cache) Cache for node.js or Browser ",
+  "main": "lrucache.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test/**/*Test.js --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sivsivsree/LRUCacheJs.git"
+  },
+  "keywords": [
+    "lrucache","lrucachejs", "lrucache-js", "jslrucache", "lru", "cache", "js-lru", "lrucahcenodejs"
+  ],
+  "author": "Siv S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sivsivsree/LRUCacheJs/issues"
+  },
+  "homepage": "https://github.com/sivsivsree/LRUCacheJs#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "sinon": "^6.1.5"
+  }
+}
